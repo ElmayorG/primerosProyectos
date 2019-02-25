@@ -1,0 +1,23 @@
+*{margin: 0%; padding: 0%;}
+#nav_bar{
+	position: absolute;
+	width: 100%;
+	height: 50px;
+	/*background: #00D5E9;*/
+	background:#FF0080;
+}
+#nav_bar > #titulo{
+	color: #fff;
+	left: 25px; 
+	position: absolute;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: "Arial";
+	top: 10px;
+	letter-spacing: 3px;
+}
+#img_prins{
+	float: right;
+	height: 100%;
+	width: 300px;
+}

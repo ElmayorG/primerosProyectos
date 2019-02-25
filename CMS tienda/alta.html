@@ -1,0 +1,46 @@
+<center>
+	<form onsubmit="reg(); return false;" id="form_v">
+	<table>
+		<tr>
+			<td colspan="2"><center><big><code>Registro de clientes</code></big></center></td>
+		</tr>
+		<tr>
+			<td><code>Correo</code></td>
+			<td><input type="mail" name="cor"></td>
+		</tr>
+		<tr>
+			<td><code>Nombre de usuario:</code></td>
+			<td>
+				<input type="text" name="usu">
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<code>Contrase&ntilde;a:</code>
+			</td>
+			<td>
+				<input type="text" name="con">
+			</td>
+		</tr>
+		<tr>
+			<td><code>Tipo:</code></td>
+			<td>
+				<select size="1" name="tip">
+					<option value="admin">Administrador</option>
+					<option value="norm" selected>Normal</option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+				<span id="resp"></span>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+				<input type="submit" value="Dar de alta" id="caja_ent">
+			</td>
+		</tr>
+	</table>
+	</form>
+</center>

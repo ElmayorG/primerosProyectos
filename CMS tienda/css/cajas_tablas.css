@@ -1,0 +1,62 @@
+#reg_semanal{
+	width: 500px;
+}
+#caja_insc{
+	background:#FF0080;
+	border: 1px solid #FF0080;
+	width: 150px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+	color: #fff;
+	font-family: "Arial";
+	font-weight: bold;
+	font-size: 22px;
+	letter-spacing: 1px;
+	border-radius: 10px;
+	box-shadow: 1px 1px 5px #B5005B inset;
+}
+#caja_insc:hover{
+	cursor: pointer;
+	background: #7B003E;
+}
+#caja_ini{
+	position:relative;
+	top: 0%;
+	left: 0%;
+
+}
+#caja_ent{
+	background:#FF0080;
+	border: 1px solid #FF0080;
+	width: 150px;
+	padding-top:5px;
+	padding-bottom:5px;
+	text-align: center;
+	color: #fff;
+	font-family: "Arial";
+	font-weight: bold;
+	font-size: 15px;
+	letter-spacing: 1px;
+	border-radius: 15px;
+	box-shadow: 1px 1px 5px #B5005B inset;
+}
+#caja_elim{
+	background:#FF0080;
+	border: 1px solid #FF0080;
+	width: 150px;
+	padding-top:2px;
+	padding-bottom:2px;
+	text-align: center;
+	color: #fff;
+	font-family: "Arial";
+	font-weight: bold;
+	font-size: 10px;
+	letter-spacing: 1px;
+	border-radius: 15px;
+	box-shadow: 1px 1px 5px #B5005B inset;
+}
+#caja_elim:hover{
+	cursor: pointer;
+	background: #7B003E;
+}
