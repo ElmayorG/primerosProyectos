@@ -1,0 +1,452 @@
+/*Scrips principales*/
+body{
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+			#links{
+				margin: 10px;
+				padding: 10px;
+			}
+			#min_lnk{
+				text-decoration: none;
+				color: #fff;
+				text-shadow:0px 0px 3px #b2b2b2;
+				position: relative;
+				top: 30%;
+				left: 40%;
+				font-family: "Consolas";
+			}
+			.activo{
+				color:#ffffff;
+				background-image: url("boton.png");
+				background-repeat: no-repeat;
+				margin: 10px;
+				padding: 3px;
+				text-shadow:2px 2px 1px #000000;
+			}
+			.desactivado{
+				color:#000000;
+				text-shadow:2px 2px 1px #ffffff;
+			}
+			#sub_bar{
+				margin: 10px;
+				padding: 10px;
+				background: #D1D1D1;
+				width: 90px;
+				list-style:none;
+				position: absolute;
+				top: 20px;
+				z-index: 3;
+			}
+			#sub_bar > li{
+				margin: 1px;
+				padding: 1px;
+				width: 130px;
+				height: 60px;
+			}
+			#sub_bar > li:hover{
+				background-image: url("boton.png");
+				background-repeat: no-repeat;
+				color:#ffffff;
+				text-shadow:2px 2px 1px #000000;
+				cursor: pointer;
+			}
+			#sub_bar > li > div{
+				margin: 20px;
+				font-family: "Arial";
+				font-size: 1 em;
+			}
+			#tit_gar{
+				background-image: url("boton.png");
+				background-repeat: no-repeat;
+				width: 120px;
+				height: 60px;
+				color:#ffffff;
+				text-shadow:2px 2px 1px #000000;
+				font-size: 1 em;
+				font-family: "Arial";
+				position: absolute;
+				top: 40%;
+				left:-10%;
+				z-index: 100;
+			}
+			#gar_true{
+				position: absolute;
+				left: 0%;
+				top:  20%;
+				z-index: 100;
+			}
+			#tit_gar > div{
+				margin: 20px;
+				color: #ffffff;
+				width: 140px;
+				height: 60px;
+				text-align: left;
+			}
+			#gar_cuerp{
+				border: 1px solid #000000;
+				width: 700px;
+				height: 400px;
+				position: relative;
+				background: #ffffff;
+				float: left;
+				color: #000000;
+				font-family: "Arial";
+				font-size: 1.2 em;
+				display: none;
+			}
+			#cortina{
+				background: #000000;
+				opacity:0.6;
+				filter:alpha(opacity=60);
+				width: 100%;
+				height: 100%;
+				position: absolute;
+				top: 0px;
+				left: 0px;
+				z-index: 99;
+			}
+			#sep{
+				font-size: 12px;
+				color: #8C8585;
+			}
+			#serie_txt{
+				width: 100px;
+				text-align: center;
+				margin: 2px;
+				text-transform: uppercase;
+			}
+			#serie_txt1{
+				width: 200px;
+				text-align: center;
+				margin: 2px;
+				text-transform: uppercase;
+			}
+			#txt_form{
+				float: left;
+				width: 55%;
+			}
+			#lab{
+				float: left;
+				height: 20px;
+				width: 20%;
+				text-align: right;
+			}
+			#form{
+				margin: 2px;
+				padding: 13px;
+				width: 100%;
+			}
+#bar{
+	width: 100%;
+	height: 35px;
+}
+#bus{
+	margin:10px;
+	width: 250px;
+	font-family: "Arial";
+	position: absolute;
+	left: 35%;
+
+}
+#sub_bar_gar{
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	z-index: 99;
+}
+#txt_form > option
+{
+	background-color: #C00707;
+	text-shadow:2px 2px 1px #000000;
+	color: #ffffff;
+}
+#res_bus{
+	border: 1px solid #000;
+	box-shadow: 2px 2px 2px #000 inset;
+	width: 249px;
+	margin: 10px;
+	position: absolute;
+	left: 35%;
+	top: 26px;
+}
+#busqueda{
+	width: 700px;
+	height: 200px;
+	position: absolute;
+	left: 25%;
+	top: 35%;
+}
+#fr_bs{
+	background: #ffffff;
+	border: 0px;
+}
+#fin{
+	background: #000;
+	width:100%;
+	height: 130px;
+	position:relative;
+	margin: 0px;
+}
+#imagen{
+	width: 100%;
+	height: 550px;
+	position: relative;
+}
+#imagen > img{
+	width: 100%;
+	height: 550px;
+	margin: 0px;
+	padding: 0px;
+	top: 0%;
+	left:0%;
+	position: absolute;
+}
+#imagen > div{
+	width: 350px;
+	height: 250px;
+	margin: 10px;
+	position: relative;
+	float: right;
+	top: 20px;
+	/*left: 50%;*/
+	text-align: justify;
+	font-family: "Candara";
+	font-size: 20px;
+	color:#fff;
+	text-shadow:2px 2px 1px #000;
+}
+#nw_tit{
+	text-align: center;
+	color: #fff;
+	text-shadow:2px 2px 1px #000;
+	font-size: 25px;
+	position: relative;
+	margin: 0px;
+	width: 100%;
+	font-family: "Candara";
+}
+#sb_tit{
+	text-align: center;
+	color: #000;
+	font-family: "Viner Hand ITC";
+	font-size: 32px;
+}
+#cuerpo{
+	overflow-x:hidden;
+	overflow-y:auto;
+	top:0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 10;
+}
+#ms_txt{
+	width: 100%;
+	height: 100%;
+}
+#ms_txt > #a{
+	width: 50%;
+	position: relative;
+	float: left;
+	font-family: "Candara";
+	font-style: 20px;
+	color: #636363;
+	text-align: justify;
+}
+#ms_txt > #a > img{
+	position: relative;
+	left: 40%;
+}
+#ms_txt > #b{
+	width: 50%;
+	position: relative;
+	float: right;
+	font-family: "Candara";
+	font-style: 20px;
+	color: #636363;
+	text-align: justify;
+}
+#ms_txt > #b > img{
+	position: relative;
+	left: 30%;
+}
+#barra{
+	position: absolute;
+	top: 0px;
+	width: 98.75%;
+	font-family: "Candara";
+	margin: 0px;
+	padding: 0px;
+	background: #D10808;
+	height: 30px;
+	z-index: 4;
+}
+#nom{
+	margin: 26px;
+	padding: 4px;
+	font-family: "Candara";
+	font-size: 15px;
+	color: #fff;
+	text-shadow:0px 0px 10px #000;
+}
+#sub{
+	color: #fff;
+	font-size: 12px;
+	font-family: "Bradley Hand ITC";
+	text-shadow:2px 2px 1px #000;
+}
+#social{
+	float: right;
+	position: relative;	
+}
+#red{
+	float: left;
+	font-size: 12px;
+	color: #fff;
+	font-family: "Bradley Hand ITC";
+	text-shadow:2px 2px 1px #000;
+}
+#face:link,#face:visited{
+	display: block;
+	margin: 0px;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 25px;
+	color: #fff;
+	float: right;
+}
+#face:hover{
+	background: #E28080;
+}
+#icon{
+	margin: 0px;
+	padding: 0px;
+	position: absolute;
+}
+#fin > #area1{
+	float: left;
+}
+#fin > #area1 > ol{
+	list-style: none;
+}
+#fin > #area1 > li{
+	margin: 5px;
+}
+#area1{
+	float: left;
+	position: relative;
+	border-right:1px solid #626262;
+	width: 33.3%;
+	height: 100%;
+}
+#area2{
+	left: 33.4%;
+	width: 33.3%;
+	height: 100%;
+	border-right:1px solid #626262; 
+}
+#area3{
+	position: relative;
+	float:right;
+	width: 33.3%;
+	height: 100%;
+}
+#fin > #area2 > ul{
+	list-style: none;
+}
+#fin > #area3 > ul{
+	list-style: none;
+}
+#titulo_fin{
+	color: #fff;
+	letter-spacing: 2px;
+	text-shadow:0px 0px 5px #fff;
+	font-size: 1em;
+	font-family: "Arial";
+	margin: 2px;	
+}
+#cm_lnk:visited,#cm_lnk:link{
+	background: #000;
+	display: block;
+	width: 220px;
+	height: 20px;
+	color: #fff;
+	font-family: "Arial";
+	padding: 10px;
+	margin: 5px;
+	text-decoration: none;
+	text-align: left;
+	letter-spacing: 1px;
+}
+#cm_lnk:hover{
+	background: #00BDC4;
+	text-shadow:0px 0px 5px #005557;
+	box-shadow: 0px 0px 10px #fff;
+}
+#lnk_free_p:link,#lnk_free_p:visited{
+	height: 20px;
+	width: 220px;
+	text-decoration: none;
+	text-align: left;
+	color: #fff;
+	display: block;
+	background: #000;
+	padding: 3px;
+	font-family: "Candara";
+	letter-spacing: 1px;
+	margin: 5px;
+}
+#lnk_free_p:hover{
+	border: 1px solid #00DEE6;
+	border-radius: 5px;
+	padding: 3px;
+	height: 20px;
+	width: 220px;
+	letter-spacing: 1px;
+	display: block;
+	background: #00DEE6;
+	box-shadow:0px 0px 10px #fff;
+	text-shadow:0px 0px 5px #000;
+}
+#porque{
+	width: 90%;
+	table-layout: auto;
+	border: 1px solid #DADADA;
+	box-shadow:0px 0px 5px #C4C4C4;
+}
+#titulos > td{
+	letter-spacing: 2px;
+	font-size: 1em;
+	font-family: "Arial";
+	color: #787878;
+	text-shadow:0px 0px 5px #fff;
+	padding-left: 5px;
+	background: #DADADA;
+}
+#cuer{
+	letter-spacing: 1px;
+	font-family: "Arial";
+	font-size: 0.9em;
+	padding-left: 5px;
+	text-align: justify;
+	
+}
+#cuer > td{padding: 5px;}
+#p_lnk:link,#p_lnk:visited{font-size:1.1em; letter-spacing: 1px; text-decoration: none; color: #299A9E; font-family: "Arial";}
+#p_lnk:hover{text-shadow:0px 0px 3px #5E5E5E; color: #525252;}
+#promociones{width: 95%; box-shadow: 0px 0px 5px #3E3E3E;}
+#t_prom{background: #00D2D9; color:#fff; text-shadow:0px 0px 5px #004E51; letter-spacing: 2px; font-size: 1.2em; font-family: "Candara"; padding: 5px;}
+#promo{font-family: "Arial"; color: #9C9C9C; letter-spacing: 1px; margin-left: 5px; font-size: 0.9em;}
+#pormo_list_esc{list-style: none;}
+#promo_list_esc > li{margin-left: 5px; margin-top: 3px; color: #00999F; text-shadow:5px 5px 5px #DCDCDC; font-family: "Arial"; font-size: 0.9em; }
+#impor_promo{font-family: "Arial"; color: #A9A9A9; letter-spacing: 0.5px;}
+.hr{box-shadow: 0px 0px 5px #A9A9A9; background: #000;}

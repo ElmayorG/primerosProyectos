@@ -1,0 +1,7 @@
+#contac{width: 100%; background:#0BD501; height: 35px; padding: 5px;}
+#contac > #tel{font-family: "Arial"; color: #FFf; text-shadow:2px 2px 2px #022800; float: left;font-size: 1.2em; letter-spacing: 2px; margin-left: 15px; }
+#contac > #mail{float: right; margin-right: 15px;}
+#promo_escuela_eje:link,#promo_escuela_eje:visited{ font-size: 1.1em; font-family: "Arial"; display: block; border: 1px solid #006603; background: #00B106; color: #fff; letter-spacing: 1px; width: 150px; padding: 5px; border-radius: 10px; text-align: center; text-decoration: none; text-shadow:0px 0px 5px #191919;}
+#promo_escuela_eje:hover{box-shadow: 0px 0px 5px #006E04; background: #008004; text-shadow:0px 0px 5px #CECECE;}
+.btn_mail{letter-spacing: 1px; cursor: pointer; padding: 5px; width: 150px; height: 35px; text-align: center; font-family: "Arial"; font-size: 1.2em; background: #0BD501; border: 1px solid #034100; color: #fff; text-shadow:1px 1px 2px #000000;}
+.btn_mail:hover{background: #056600;}

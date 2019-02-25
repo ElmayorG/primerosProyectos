@@ -1,0 +1,29 @@
+<html>
+	<head>
+		<title>P&aacute;gina de promocion mas por menos.</title>
+		<script src="jquery.js"></script>
+		<script>
+			$(document).ready(function(){
+				$(".ubc_clk").click(function(){
+					$("#cortina").removeClass("off");
+					$("#map_ubi").removeClass("off");
+					$("#cortina").addClass("on");
+					$("#map_ubi").addClass("on");
+				});
+			});
+		</script>
+		<link rel="stylesheet" type="text/css" href="cuerpos.css">
+	</head>
+	<body>
+	<nav id="tolbar"><img src="escudo.png" id="escudo"><span id="titulo">Escuela de ejemplo</span><div id="menu"><input type="button" value="Ubicaci&oacute;n" id="ubic" class="ubc_clk"><input type="button" id="ubic" value="Contacto"></div></nav>
+	<div id="map_ubi" class="off">
+	<img src="escudo.png" id="esc_ubic">
+	<div id="tit">Ubicaci&oacute;n<span id="cierre">X</span></div>
+	<br>	
+	<center>
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3761.1776333175644!2d-99.04682500000004!3d19.490992000000013!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1fafb59b483ab%3A0x5fb778ae5601c55!2sRio+de+los+Remedios!5e0!3m2!1ses!2smx!4v1427603598943" width="600" height="450" frameborder="0" style="border:0"></iframe>
+	</center>
+	</div>
+	<div id="cortina" class="off"></div>
+	</body>
+</html>

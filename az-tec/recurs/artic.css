@@ -1,0 +1,68 @@
+#top{
+	position: absolute;
+	top:0px;
+	width: 100%;
+	height: 30px;
+	margin: 0px;
+	padding: 0px;
+	left: 0px;
+	z-index: 2;
+	background: #D10808;
+}
+#ent_tit{
+	position: absolute;
+	float: right;
+	top: 30px;
+	width:150px;
+	height:100px;
+	background: #EBC800;
+	z-index: 3;
+	padding:0px;
+	margin:0px;
+	left: 80%;
+	font-family: "Consolas";
+	color: #fff;
+	text-shadow:1px 1px 5px #695900;
+	box-shadow:2px 2px 1px #FFED80 inset;
+}
+#cuerpo{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	background: #D7D7D7;
+	overflow: auto;
+}
+#artic{
+	position: relative;
+	top:30px;
+}
+#titulo{
+	color: #fff;
+	text-shadow:1px 1px 10px #4E4E4E;
+	font-size: 30px;
+	letter-spacing: 1px;
+	font-family: "Candara";
+}
+#fmls{
+	position: absolute;
+	left: 270px;
+}
+#sub_tit{
+	color: #fff;
+	text-shadow:0px 0px 10px #857100;
+	font-size: 20px;
+}
+#fmls > ul{
+	list-style: none;
+}
+#fmls > ul > li{
+	margin: 5px;
+	padding: 5px;
+	font-size: 18px;
+	font-family: "Consolas";
+	color: #fff;
+	text-shadow:1px 1px 6px #006D75;
+
+}
